@@ -7,10 +7,10 @@
     "modal_next": "下一步",
     "modal_ok": "确定",
     "modal_done": "完成",
-
     "group_modal_info": "群组信息",
     "group_modal_pluralize_participants": "{'0': '组内无人', 'one': '组内有 1 人', 'other': '组内有 {} 人'}",
     "group_modal_pluralize_online_participants": "{'one': '1 人在线', 'other': '{} 人在线'}",
+    "group_modal_pluralize_subscribers": "{'0': 'No subscribers', 'one': '1 subscriber', 'other': '{} subscribers'}",
     "group_modal_participants": "{online}/{total}",
     "group_modal_add_member": "添加成员",
     "group_modal_return": "返回群组",
@@ -36,7 +36,6 @@
     "group_modal_migrate_item2": "新成员能够看到完整的历史聊天记录",
     "group_modal_migrate_item3": "管理员可以删除任何人的消息",
     "group_modal_migrate_item4": "默认关闭消息通知",
-
     "channel_modal_info": "频道详情",
     "channel_modal_description": "描述",
     "channel_modal_share_link": "分享链接",
@@ -46,9 +45,7 @@
     "channel_modal_add_member": "邀请其他人",
     "channel_modal_leave_channel": "离开频道",
     "channel_modal_delete_channel": "删除频道",
-
     "country_select_modal_title": "国家",
-
     "settings_modal_title": "设置",
     "settings_modal_menu_more": "更多",
     "settings_modal_delete_photo": "删除头像",
@@ -77,7 +74,6 @@
     "settings_modal_source_code_github": "源代码托管于 GitHub",
     "settings_modal_follow_us_twitter": "关注我们的 Twitter！",
     "settings_modal_recent_updates": "最近更新 (ver. {version})",
-
     "settings_modal_set_password": "设置附加密码",
     "settings_modal_change_password": "修改密码",
     "settings_modal_disable_password": "关闭",
@@ -85,7 +81,6 @@
     "settings_modal_password_email_pending": "点击 {email} 收到的链接以完成两步认证的设置。",
     "settings_modal_password_email_pending_cancel": "取消",
     "settings_modal_password_email_pending_cancel_mobile": "取消密码",
-
     "password_delete_title": "不使用密码",
     "password_change_title": "两步认证",
     "password_current_placeholder": "输入当前密码",
@@ -99,7 +94,6 @@
     "password_create_submit": "保存",
     "password_delete_active": "正在删除...",
     "password_delete_submit": "删除密码",
-
     "sessions_modal_title": "活动会话",
     "sessions_modal_loading": "正在读取{dots}",
     "sessions_modal_current_session": "当前会话",
@@ -107,28 +101,22 @@
     "sessions_modal_terminate_one": "终止",
     "sessions_modal_terminate_all": "终止所有其他会话",
     "sessions_modal_active_sessions": "活动会话",
-
     "stickerset_modal_title_loading": "贴纸库",
     "stickerset_modal_install": "添加贴纸包",
     "stickerset_modal_uninstall": "移除贴纸包",
     "stickerset_modal_share": "分享",
     "stickerset_modal_loading": "加载中{dots}",
-
     "page_title_pluralize_notifications": "{'0': '没有通知', 'one': '1 条通知', 'other': '{} 条通知'}",
-
     "profile_edit_modal_title": "编辑资料",
     "profile_edit_first_name": "名字",
     "profile_edit_last_name": "姓氏",
     "profile_edit_submit": "保存",
     "profile_edit_submit_active": "正在保存...",
-
-
     "username_edit_modal_title": "更改用户名",
     "username_edit_placeholder": "用户名",
     "username_edit_description_md": "您可以为您的 **Telegram** 选择一个用户名。在您设置用户名后，其他用户就算不清楚您的电话号码仍能够利用此用户名找到您。\n\n您可以在您的用户名中使用英文小写字母、阿拉伯数字以及下划线。用户名必须至少 5 个字符。",
     "username_edit_submit": "保存",
     "username_edit_submit_active": "正在保存...",
-
     "user_modal_menu_more": "更多",
     "user_modal_send_message": "发送消息",
     "user_modal_edit_contact": "编辑联系人",
@@ -149,7 +137,6 @@
     "user_modal_settings": "设置",
     "user_modal_notifications": "通知",
     "user_modal_contact_info": "联系人信息",
-
     "media_modal_photo": "照片",
     "media_modal_photo_index": "第 {pos} 张照片，共 {count} 张",
     "media_modal_video": "视频",
@@ -158,16 +145,14 @@
     "media_modal_delete": "删除",
     "game_modal_share_game": "分享游戏",
     "game_modal_share_score": "分享分数",
-
     "error_browser_no_local_file_system_image_md": "您的浏览器不支持 {moz-link: https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | LocalFileSystem} 功能，故无法显示这张图片。\n请安装 {chrome-link: http://google.com/chrome | 谷歌 Chrome 浏览器} ，或者是使用 {telegram-link: https://telegram.org/ | 专用客户端} 来获得更好的体验。",
     "error_image_download_failed": "下载失败",
     "error_browser_no_local_file_system_video_md": "您的浏览器不支持 {moz-link: https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | LocalFileSystem} 功能，故无法显示这张图片。\n请安装 {chrome-link: http://google.com/chrome | 谷歌 Chrome 浏览器} ，或者是使用 {telegram-link: https://telegram.org/ | 专用客户端} 来获得更好的体验。",
     "error_video_download_failed": "视频下载失败",
-
     "unread_messages_split": "未读消息",
-
     "user_name_deleted": "已删除",
     "user_first_name_deleted": "已删除",
+    "user_name_saved_msgs": "保存的消息",
     "user_status_online": "在线",
     "user_status_last_seen": "距离上次在线 {0}",
     "user_status_recently": "近期有上线",
@@ -185,42 +170,35 @@
     "relative_time_pluralize_minutes_ago": "{'one': '1 分钟前', 'other': '{} 分钟前'}",
     "relative_time_pluralize_hours_ago": "{'one': '1 小时前', 'other': '{} 小时前'}",
     "relative_time_just_now": "刚刚",
-
     "changelog_modal_header_recent_updates_md": "**Telegram Web** 更新记录",
     "changelog_modal_header_new_updates_md": "**Telegram Web** 已更新！",
     "changelog_modal_title_current_version": "当前版本",
-    "changelog_modal_full_description_md": "官方免费聊天软件，基于 Telegram API 保证速度及安全\n \n本软件基于 GNU GPL version 3 协议。",
+    "changelog_modal_full_description_md": "官方免费聊天软件，基于 Telegram API 保证速度及安全\n \n本软件基于 GNU GPL version 3 协议。",
     "changelog_modal_changelog_link": "更新日志",
     "changelog_app_version": "版本 {version}",
-
     "group_create_contacts_modal_title": "新建小组",
     "group_create_modal_title": "建立小组",
     "group_create_name": "小组名称",
     "group_create_submit": "建立小组",
     "group_create_submit_active": "正在创建...",
-
     "group_edit_modal_title": "编辑小组",
     "group_edit_name": "小组名称",
     "group_edit_about": "群组简介",
     "group_edit_submit": "保存",
     "group_edit_submit_active": "正在保存...",
-
     "channel_edit_modal_title": "编辑频道",
     "channel_edit_name": "频道名称",
     "channel_edit_about": "频道简介",
     "channel_edit_submit": "保存",
     "channel_edit_submit_active": "正在保存...",
-
     "group_invite_link_modal_title": "邀请链接",
     "group_invite_link_link_label": "复制链接",
     "group_invite_link_loading": "加载中…",
     "group_invite_revoke_active": "正在撤销...",
     "group_invite_revoke": "撤销",
-
     "clipboard_copied": "已复制！",
     "clipboard_press_ctrl_c": "按 Ctrl+C 来复制",
     "clipboard_press_cmd_c": "按 ⌘+C to 来复制",
-
     "confirm_modal_logout": "您确定要从本机注销？",
     "confirm_modal_update_reload": "新版本的 Telegram Web 已下载，是否运行？",
     "confirm_modal_history_flush": "您确定要这么做吗？此操作无法撤销！",
@@ -238,9 +216,9 @@
     "confirm_modal_message_revoke_recipient_chat": "所有人",
     "confirm_modal_delete_messages_for_everyone_chat": "这将为在此对话中的所有人删除这些消息。",
     "confirm_modal_delete_messages_for_you_only_pm": "这将只为你删除这些消息，而不是 {user} 。",
-    "confirm_modal_delete_messages_for_you_only_chat": "这将只为你删除这些消息，而不是此对话的其他参与者。",
+    "confirm_modal_delete_messages_for_you_only_chat": "此操作将仅为你删除这些消息，对话的其他成员仍将能够看到这些消息。",
     "confirm_modal_photo_delete": "确认删除此照片？",
-    "confirm_modal_contacts_import": "Telegram 将同步您的通讯录来寻找并添加您的好友。",
+    "confirm_modal_contacts_import": "Telegram 现在将同步您的通讯录以寻找您的朋友。",
     "confirm_modal_login_phone_correct": "这个手机号码正确吗？",
     "confirm_modal_forward_to_peer": "转发给 {peer}？",
     "confirm_modal_forward_to_peer_success": "消息已成功转发。",
@@ -254,7 +232,7 @@
     "confirm_modal_resize_mobile_md": "您要切换到移动模式吗？",
     "confirm_modal_recovery_email_empty_md": "警告！您确定不添加密码恢复的电子邮箱地址吗？\n\n如果您忘记了密码，您将无法登录您的 Telegram 帐号。",
     "confirm_modal_abort_password_setup": "确定取消设置两步认证？",
-    "confirm_modal_reset_account_md": "您确定？\n此操作无法撤销。\n\n如果您继续进行重置帐号的操作，您会失去您的聊天会话、消息历史以及分享过的文件。",
+    "confirm_modal_reset_account_md": "您确定吗？\n此操作不可撤销。\n\n如果您继续重置帐户的操作，您将会丢失所有的对话和消息，以及任何您分享的媒体和文件。",
     "confirm_modal_join_group_link": "您想加入小组 «{title}» 吗？",
     "confirm_modal_join_channel_link": "您确定要加入频道 «{title}» 吗？",
     "confirm_modal_revoke_group_link": "您确定要撤销这个邀请链接吗？一旦撤销，其他人将无法使用此链接加入小组。",
@@ -266,9 +244,7 @@
     "confirm_modal_bot_access_phone": "机器人将会获取您的手机号码。这可能对与其他服务的集成有用。",
     "confirm_modal_bot_access_geo": "此操作将会告知机器人您的当前位置。",
     "confirm_modal_bot_access_geo_inline": "机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。",
-
     "confirm_modal_are_u_sure": "您确定？",
-
     "confirm_modal_logout_submit": "退出登录",
     "confirm_modal_clear_history_submit": "清除聊天记录",
     "confirm_modal_leave_chat_submit": "离开",
@@ -284,34 +260,29 @@
     "confirm_modal_share_contact_submit": "发送联系人",
     "confirm_modal_share_file_submit": "分享文件",
     "confirm_modal_reset_account_submit": "重置帐号",
-
     "contacts_modal_edit_list": "编辑",
     "contacts_modal_edit_cancel": "取消",
     "contacts_modal_edit_delete": "删除",
-    "contacts_modal_pluralize_new_group_members": "{'one': '1 个参与者', 'other': '{} 个参与者'}",
+    "contacts_modal_pluralize_new_group_members": "{'one': '1 member', 'other': '{} members'}",
     "contacts_modal_title": "联系人",
     "contacts_modal_new_contact": "新建联系人",
-    "contacts_modal_empty_list": "您的通讯录是空的。您可以用电话号码的形式 {import-link: 添加联系人} 。",
-
+    "contacts_modal_empty_list": "您的联系人列表是空的。您可以用电话号码{import-link: 添加新的联系人}",
     "conversations_modal_forward_title": "转发",
     "conversations_modal_forward_submit": "转发",
     "conversations_modal_select_recipients": "选择参与者",
     "conversations_modal_recipients": "参与者",
     "conversations_modal_share_url_loading": "加载中{dots}",
     "conversations_modal_share_url_copy": "点击以复制分享链接",
-
     "contact_edit_modal_first_name": "名字",
     "contact_edit_modal_last_name": "姓氏",
     "contact_edit_modal_title": "编辑联系人",
     "contact_edit_modal_submit": "保存",
     "contact_edit_modal_submit_active": "正在保存...",
-
     "contact_import_modal_title": "添加新联系人",
     "contact_import_modal_phone": "手机号码",
     "contact_import_modal_phonebook": "电话簿",
     "contact_import_modal_submit": "保存",
     "contact_import_modal_submit_active": "正在导入...",
-
     "conversation_you": "自己",
     "conversation_draft": "草稿：",
     "conversation_media_photo": "照片",
@@ -325,9 +296,7 @@
     "conversation_media_contact": "联系人",
     "conversation_media_attachment": "附件",
     "conversation_media_unsupported": "不支持此附件",
-
     "conversation_search_peer": "在此会话中搜索",
-
     "conversation_group_created": "新建小组",
     "conversation_group_renamed": "成功更改小组名称",
     "conversation_group_photo_updated": "成功更换群组图片",
@@ -348,13 +317,10 @@
     "conversation_removed_channel_photo": "删除了频道标志",
     "conversation_pinned_message": "置顶消息",
     "conversation_scored_X": "{'one': '得分为 {}', 'other': '得分为 {}'}",
-
     "conversation_message_sent": "发送给你一条消息",
     "conversation_forwarded_X_messages": "{'one': 'forwarded {} message', 'other': 'forwarded {} messages'}",
-
     "conversation_unknown_user": "无名氏",
     "conversation_unknown_chat": "未知的对话",
-
     "message_service_created_group": "成功创建 {group_name} 小组",
     "message_service_changed_group_name": "小组名称已经修改为 {group_name}",
     "message_service_changed_group_photo": "成功更换群组图片",
@@ -382,7 +348,8 @@
     "message_service_removed_channel_photo": "删除了频道标志",
     "message_service_scored_X": "{'one': '得分为 {}', 'other': '得分为 {}'}",
     "message_service_payment_sent": "付款已发送",
-
+    "message_service_screenshot_taken": "截了一张图！",
+    "message_admin_badge": "管理员",
     "message_action_reply": "回复",
     "message_action_edit": "编辑",
     "message_action_delete": "删除",
@@ -390,7 +357,6 @@
     "message_action_select": "选择",
     "message_action_cancel": "取消",
     "message_action_retry": "重试",
-
     "error_modal_warning_title": "警告",
     "error_modal_bad_request_title": "错误",
     "error_modal_unauthorized_title": "未经认证",
@@ -407,7 +373,6 @@
     "error_modal_media_not_supported_title": "尚未支持的媒体文件",
     "error_modal_phonecalls_not_supported_title": "通话尚不可用",
     "error_modal_recovery_na_title": "对不起",
-
     "error_modal_network_description": "请检查您的网络连接。",
     "error_modal_firstname_invali_description": "您输入的名字包含有系统不允许的字符。",
     "error_modal_lastname_invalid_description": "您输入的姓氏包含有系统不允许的字符。",
@@ -425,7 +390,6 @@
     "error_modal_username_not_found_description": "您提供的 Telegram 帐号名不存在。",
     "error_modal_phonecalls_not_supported_description_md": "很抱歉，目前通话尚不能在网页版 Telegram 中使用。\n\n您可以使用我们的 App 或桌面客户端与 {user} 进行通话。\n{download-link: 下载 »}",
     "error_modal_app_signup_forbidden_md": "你还没有注册过 Telegram 账号，请先使用 {signup-link: Android / iPhone} 注册账号。",
-
     "error_modal_bad_request_description": "缺少一个参数或参数值有错误。",
     "error_modal_unauthorized_description": "这个操作需要您验证身份。请 {login-link: 登录}。",
     "error_modal_forbidden_description": "您无法执行此操作。",
@@ -443,13 +407,11 @@
     "error_modal_gelocation_na": "此应用无法确认您的当前位置",
     "error_modal_2fa_recent_confirm": "您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。",
     "error_modal_2fa_delayed_time_md": "你将能在 **{time}** 之后重置你的账号。",
-
-
     "head_telegram": "Telegram",
     "head_new_group": "新建小组",
     "head_new_contact": "新建联系人",
-    "head_contacts": "通讯录",
-    "head_contacts_title": "通讯录",
+    "head_contacts": "联系人",
+    "head_contacts_title": "联系人",
     "head_telegram_faq": "Telegram 常见问题",
     "head_settings": "设置",
     "head_log_out": "退出登录",
@@ -458,8 +420,11 @@
     "head_media_photos": "图片",
     "head_media_video": "视频",
     "head_media_documents": "文件",
+    "head_media_music": "语音",
+    "head_media_links": "分享的链接",
     "head_media_audio": "语音消息",
     "head_media_round": "视频消息",
+    "head_media_mymentions": "Mentions",
     "head_media_search": "搜索",
     "head_about": "关于",
     "head_clear_all": "清除聊天记录",
@@ -472,14 +437,11 @@
     "head_waiting_for_network": "等待网络",
     "head_retry": "重试",
     "head_connecting": "正在连接",
-
     "footer_twitter": "Twitter",
-
-
     "im_new_group": "新建群组",
     "im_new_contact": "新建联系人",
-    "im_contacts": "通讯录",
-    "im_contacts_title": "通讯录",
+    "im_contacts": "联系人",
+    "im_chat_contacts_title": "会话与联系人",
     "im_settings": "设置",
     "im_conversations": "会话",
     "im_found_title": "全局搜索",
@@ -498,6 +460,10 @@
     "im_media_video": "视频",
     "im_media_documents": "文件",
     "im_media_audio": "语音消息",
+    "im_media_round": "视频消息",
+    "im_media_music": "语音",
+    "im_media_links": "分享的链接",
+    "im_media_mentions": "Mentions and Replies",
     "im_pluralize_participants": "{'0': '没有成员', 'one': '1 个成员', 'other': '{} 个成员'}",
     "im_show_recent_messages": "显示最近消息",
     "im_show_all_messages": "显示所有消息",
@@ -580,59 +546,46 @@
     "login_code_placeholder": "验证码",
     "login_code_incorrect": "验证码输入有误",
     "login_recovery_description_md": "我们已经发送了包含恢复码的邮件到您的电子邮箱：\n\n{email}\n\n请查收您的电子邮件并输入我们发给你的 6 位恢复码。",
-
     "password_recover_active": "正在检查...",
     "password_recover_submit": "提交",
-
-
     "login_controller_unknown_country": "未知",
-
     "message_forwarded_message": "转发过的消息",
     "message_via_bot": "来自 {bot}",
     "message_edited": "编辑",
     "message_forwarded_message_mobile": "转发自 {from}",
     "message_forwarded_via_message_mobile": "转发自 {user} 通过 {bot}",
-
     "message_attach_audio_message": "语音消息",
     "message_attach_audio_play": "播放",
-
     "message_attach_document_open": "打开",
     "message_attach_document_download": "下载",
     "message_attach_document_save": "保存文件",
-
     "message_attach_video_video": "视频",
     "message_attach_video_download": "下载",
     "message_attach_video_save": "保存文件",
     "message_attach_video_play": "播放视频",
-
     "message_attach_unsupported": "您当前的 Telegram 网页版本无法查看这条消息。请前往这里下载新版：{link} ",
-
+    "message_attach_notweb": "您当前的 Telegram 网页版本无法查看这条消息。请使用移动应用来查看：{link} ",
     "conversation_select_modal_title": "选择会话",
-    "conversation_select_modal_contacts": "通讯录",
+    "conversation_select_modal_chats_contacts": "会话与联系人",
     "conversation_one_selected": "{name1}",
     "conversation_two_selected": "{name1} 与 {name2}",
     "conversation_many_selected": "{name1}，{name2} 还有另外 {count} 个人",
-
     "phonebook_modal_title": "电话簿",
     "phonebook_modal_deselect_all": "取消全选",
     "phonebook_modal_select_all": "全选",
     "phonebook_modal_empty": "您的电话簿是空的。",
     "phonebook_modal_submit_active": "正在导入",
     "phonebook_modal_submit": "导入通讯录",
-
     "inactive_tab_title": "Telegram: Zzz...",
     "inactive_title": "Such error, many tabs",
     "inactive_description_md": "Telegram 网页版仅支持同时最多使用一个标签页。\n请关闭本页，或刷新以继续使用。",
     "inactive_reload_btn": "重新加载",
-
     "push_action_mute1d": "静音后台通知 1 天",
     "push_action_settings": "后台通知设定",
     "push_action_mute1d_mobile": "静音 24 小时",
     "push_action_settings_mobile": "通知设定",
     "push_message_nopreview": "您有一条新消息",
     "push_action_mute1d_success": "通知设置保存成功",
-
-
     "country_select_modal_country_ab": "阿布哈兹",
     "country_select_modal_country_af": "阿富汗",
     "country_select_modal_country_ax": "奥兰群岛",

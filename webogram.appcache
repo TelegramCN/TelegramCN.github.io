@@ -47,6 +47,7 @@ img/icons/ProfileIcons.png
 img/icons/ProfileIcons_2x.png
 img/icons/icon.svg
 img/placeholders/DialogListAvatarSystem@2x.png
+img/placeholders/Fave.png
 img/placeholders/GroupAvatar1@2x.png
 img/placeholders/GroupAvatar2@2x.png
 img/placeholders/GroupAvatar3@2x.png
@@ -94,4 +95,4 @@ http://*
 https://*
 *
 
-# hash: 8e8f8a2c296c4416198dfc2289cb1a7b6c14c1e0cba255b7da6786bcbc2c3670
+# hash: d6461c26872b1802cc44eadcd9cad08fa8835de00e0a203ce509545ccf7a354d

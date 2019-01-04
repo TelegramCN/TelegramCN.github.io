@@ -1,6 +1,5 @@
 CACHE MANIFEST
 
-
 CACHE:
 favicon.ico
 favicon_unread.ico
@@ -89,10 +88,9 @@ vendor/angular/i18n/angular-locale_nl-nl.js
 vendor/angular/i18n/angular-locale_pt-br.js
 vendor/angular/i18n/angular-locale_ru-ru.js
 
-
 NETWORK:
 http://*
 https://*
 *
 
-# hash: d6461c26872b1802cc44eadcd9cad08fa8835de00e0a203ce509545ccf7a354d
+# hash: d567d2eb2ca50cbdc0a9f7380a9d040148db7c0d50c5b3adb88a1f18c51cd088
